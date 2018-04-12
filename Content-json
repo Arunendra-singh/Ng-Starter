@@ -1,0 +1,33 @@
+{
+  "imageTemplate": "<div class='entry-photo'>
+                      <h2>&nbsp;</h2>
+                      <div class='entry-img'><span><a href='{{rootDirectory}}{{content.data}}'>
+                        <img ng-src='{{rootDirectory}}{{content.data}}' alt='entry photo'></a></span>
+                      </div>
+                      <div class='entry-text'>  <div class='entry-title'>{{content.title}}</div> 
+                        <div class='entry-copy'>{{content.description}}</div>
+                      </div>
+                    </div>",
+  "videoTemplate": "<div class='entry-video'>
+                      <h2>&nbsp;</h2>
+                      <div class='entry-vid'><iframe ng-src='{{content.data}}' width='280' height='200' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </div>
+                      <div class='entry-text'>  
+                        <div class='entry-title'>{{content.title}}</div>  <div class='entry-copy'>{{content.description}}</div>
+                      </div>
+                    </div>",
+  "noteTemplate": "<div class='entry-note'>
+                      <h2>&nbsp;</h2>
+                      <div class='entry-text'>
+                        <div class='entry-title'>{{content.title}}</div>  <div class='entry-copy'>{{content.data}}</div>
+                      </div>
+                   </div>"
+}
+
+[
+    { "content_type" : "image",  "title" : "Image 01",   "data" : "temp-photo.jpg"  },
+    { "content_type" : "video",  "title" : "Video 01",  "data" : "http://player.vimeo.com/video/37176398" },
+    { "content_type" : "notes",  "title" : "Notes 01",  "data" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar pretium felis. Vivamus nibh felis, condimentum sit amet laoreet luctus, posuere auctor lorem. Nullam malesuada." },
+    { "content_type" : "image",  "title" : "Image 02",  "data" : "temp-photo.jpg" },
+    { "content_type" : "video",  "title" : "Video 02",  "data" : "http://player.vimeo.com/video/37176398" },
+    { "content_type" : "notes",  "title" : "Notes 02",  "data" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar pretium felis. Vivamus nibh felis, condimentum sit amet laoreet luctus, posuere auctor lorem. Nullam malesuada." },
+]
