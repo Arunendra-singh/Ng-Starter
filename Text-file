@@ -1,13 +1,17 @@
 Resume in js formate
-
 {
 
-"basics": { "name": "Arunendra singh", "label": "UI/UX Developer", "picture": "", "email": "arunendrasingh11@yahoo.in", "phone": "+91 9981177011", "website": "http://arunendrasingh11.com", "summary": "A summary of Arunendra", "location": { "address": "Vijay nagar Indore", "postalCode": "452001", "city": "Indore", "countryCode": "In", "region": "India" },
-
-"work": [{ "company": "Lcc infotec inc", "position": "Employee", "website": "http://lccinfotech.com", "startDate": "sep-2016", "endDate": "dec-2017", "summary": "Description...", "highlights": [ "Started the company" ] }],
-
-"education": [{ "institution": "University", "area": "Software", "studyType": "Master's", }],
-
-"skills": [{ "name": "Web Development", "level": "Master", "keywords": [ "HTML", "CSS", "Javascript" ] }], "languages": [{ "name": "Hindi, English", }], "interests": [{ "name": "Wildlife", "keywords": [ "Ferrets", "Unicorns" ] }],
-
+"basics": { "name": "Arunendra singh", "label": "UI/UX Developer", "picture": "", "email": "arunendrasingh11@yahoo.in", 
+  "phone": "+91 9981177011", 
+  "website": "http://arunendrasingh11.com", 
+  "summary": "A summary of Arunendra", 
+  "location": { "address": "Vijay nagar Indore", "postalCode": "452001", "city": "Indore", "countryCode": "In", "region": "India" },
+  "work": [{ 
+          "company": "Lcc infotec inc", "position": "Employee", "website": "http://lccinfotech.com", "startDate": "sep-2016", 
+          "endDate": "dec-2017", "summary": "Description...", "highlights": [ "Started the company" ] 
+         }],
+  "education": [{ "institution": "University", "area": "Software", "studyType": "Master's", }],
+  "skills": [{ "name": "Web Development", "level": "Master", "keywords": [ "HTML", "CSS", "Javascript" ] }], 
+  "languages": [{ "name": "Hindi, English", }], "interests": [{ "name": "Wildlife", "keywords": [ "Ferrets", "Unicorns" ] }],
+ }
 }
